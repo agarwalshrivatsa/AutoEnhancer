@@ -1,0 +1,23 @@
+
+model:
+    modelPath: 'facialSmoothing/models/opencv_face_detector_uint8.pb'
+    configPath: 'facialSmoothing/models/opencv_face_detector.pbtxt'
+    
+    threshold: 0.4
+
+image:
+
+    hsv_low: !!python/tuple [0.,65.,65.]
+    hsv_high: !!python/tuple [180.,255.,255.]
+
+    mean: [104, 117, 123]
+    size: !!python/tuple [200, 200]
+
+    bbox_color: !!python/tuple [255, 204, 102]
+
+
+filter:
+
+    d: 15
+    sigma_1: 50
+    sigma_2: 50
