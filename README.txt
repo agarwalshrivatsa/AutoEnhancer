@@ -22,12 +22,6 @@ Requirements:
 - flask
 
 How to run API:
-In the directory enhanceAPI, after installing venv, run:
-venv\scripts\activate
-python enhanceAPI.py
-
-OR
-
 Install python and all the libraries mentioned above and run in enhanceAPI directory:
 python enhanceAPI.py
 
