@@ -47,6 +47,8 @@ npm android
 OR
 yarn android
 
+If build fails, retry step 3 after step 4
+
 Step 5:
 To enable the phone to access the local server, in the command line, run:
 adb reverse tcp:5000 tcp:5000
