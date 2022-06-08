@@ -1,6 +1,3 @@
-Name: AGARWAL Shrivatsa Kumar
-SID: 55394282
-
 Project: Automatic Portrait Enhancer App
 
 Folders:
